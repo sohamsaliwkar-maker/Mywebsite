@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Shop</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f2f2f2;
+margin:0;
+}
+
+header{
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.product{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+button{
+background:black;
+color:white;
+border:none;
+padding:10px 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>My Sneaker Shop</h1>
+</header>
+
+<div class="product">
+<h2>Nike Shoes</h2>
+<p>Price: ₹2999</p>
+<button>Buy Now</button>
+</div>
+
+<div class="product">
+<h2>Adidas Shoes</h2>
+<p>Price: ₹2499</p>
+<button>Buy Now</button>
+</div>
+
+</body>
+</html>
